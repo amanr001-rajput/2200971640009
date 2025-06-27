@@ -11,6 +11,5 @@ app.use(logger);
 app.use('/', shortUrls);
 
 app.listen(PORT, () => {
-
     require('./utils/logger')("backend", "info", "config", `Server running at http://localhost:${PORT}`);
 });
